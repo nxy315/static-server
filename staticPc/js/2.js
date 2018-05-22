@@ -1,1 +1,1 @@
-alert('pc2')
+document.getElementById('insert').innerHTML = '电脑 2.js'

@@ -1,1 +1,1 @@
-alert('phone1')
+document.getElementById('insert').innerHTML = '手机 1.js'

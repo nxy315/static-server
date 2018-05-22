@@ -22,7 +22,7 @@ function returnStatic(ctx, path) {
   // 指定资源type
   let mime = parseMime( ctx.url )
   if ( mime ) {
-    ctx.type = _mime
+    ctx.type = mime
   }
 
   // 判断客户端类型 (默认请求的文件都存在，缺少404的判断)
